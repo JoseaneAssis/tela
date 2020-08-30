@@ -11,14 +11,14 @@ body{
   color: white;
   background: url(../imagens/fundo1.jpg) no-repeat bottom center scroll;
   background-position: 30% 45%;
-  background-color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 input{
-	display: block;
+	display: white;
 	height: 55px;
 	width: 400px;
 	margin: 10px;
@@ -42,13 +42,19 @@ div#corpo-form-Cad
 	width: 420px;
 	margin: 80px auto 0px auto;
 }
-div#corpo-form h1, div#corpo-form-Cad h1{
+div#corpo-form-AreaP
+{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 80px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-Cad h1, div#corpo-form-AreaP h1{
 	text-align: center;
 	padding: 20px;
 }
-
 a{
-	color: black;
+	color: white;
 	text-decoration: none;
 	text-align: center;
 	display: block;

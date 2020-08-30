@@ -29,13 +29,13 @@ if(isset($_POST['email']))
 		
 		if(!empty($email) && !empty($senha))
 		{
-			$u -> conectar("projeto_login", "localhost", "root", "");
-			if ($u ->msgErro == "")
+			$u->conectar("tela_login", "localhost", "root", "");
+			if ($u->msgErro == "")
 			{
                if($u->logar($email,$senha))
                {
               
-			  header("location: areaPrivada.php");
+			  header("location: Produtos.php");
               }
               else
               {
