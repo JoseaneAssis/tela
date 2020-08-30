@@ -18,6 +18,7 @@ $u = new Usuario();
     <input type="password" placeholder="Senha" name="senha">
     <input type="submit" value="Login">
     <a href="cadastrar.php">Ainda não é inscrito?<strong>Cadastre-se</strong></a>
+</script>
 </form>
 </div>
 <?php 
