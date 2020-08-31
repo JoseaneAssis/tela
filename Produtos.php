@@ -2,10 +2,10 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Projeto Login</title>
-	<link rel="stylesheet" href="CSS/estilo.css">
-
+	
 </head>
 <body>
+
 <div id="corpo-form-AreaP">
 	<h1>Produtos</h1>
 	<form method="POST">
@@ -16,6 +16,10 @@
 		<input type="password" name="estoque" placeholder="Estoque" maxlength="15">
 		
 	</form>
+	<input name="bt_cad" id="bt_cad" class="btn btn-success" type="submit" value="CRIAR">
+        <input name="bt_editar id="bt_editar"class="btn btn-warning" type="reset" value="EDITAR">
+        <input name="bt_excluir" id="bt_excluirr" class="btn btn-danger" type="button" value="EXCLUIR">
+
 </div>
 <?php
 
@@ -31,3 +35,4 @@
 
 
 <a href="sair.php"><strong>Logout</strong></a>
+
