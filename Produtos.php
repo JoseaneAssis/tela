@@ -1,5 +1,9 @@
 <html lang="pt-br">
-
+<head>
+	<meta charset="utf-8"/>
+	<title>Produtos</title>
+	
+</head>
 <body>
 
 <div id="corpo-form-AreaP">
